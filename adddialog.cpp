@@ -30,6 +30,9 @@ void AddDialog::on_addBtn_clicked()
 
     ui->textEdit->setText("");
     ui->subjectLineEdit->setText("");
+
+
+
     this->close();
 }
 

@@ -16,7 +16,7 @@ public:
     ~AddDialog();\
 
 signals:
-    void newTextRecived(QString, QString);
+    void newTextRecived(QString, QString, QString = "false");
 
 private slots:
     void on_addBtn_clicked();
