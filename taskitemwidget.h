@@ -34,6 +34,4 @@ private:
 
 };
 
-
-
 #endif // TASKITEMWIDGET_H

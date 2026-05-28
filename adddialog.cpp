@@ -9,7 +9,6 @@ AddDialog::AddDialog(QWidget *parent)
 
     connect(ui->subjectLineEdit, &QLineEdit::textChanged, this, &AddDialog::checkInput);
     connect(ui->textEdit, &QTextEdit::textChanged, this, &AddDialog::checkInput);
-
 }
 
 AddDialog::~AddDialog()
@@ -31,8 +30,6 @@ void AddDialog::on_addBtn_clicked()
     ui->textEdit->setText("");
     ui->subjectLineEdit->setText("");
 
-
-
     this->close();
 }
 
@@ -48,6 +45,5 @@ void AddDialog::checkInput()
         ui->addBtn->setEnabled(true);
     else
         ui->addBtn->setEnabled(false);
-
 }
 

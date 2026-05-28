@@ -16,9 +16,6 @@ TaskItemWidget::TaskItemWidget(QWidget *parent, const QString &text, const QStri
         ui->checkBox->setCheckState(Qt::Checked);
 
     ui->textLabel->setWordWrap(true);
-
-
-
 }
 
 TaskItemWidget::~TaskItemWidget()
@@ -47,8 +44,6 @@ QString TaskItemWidget::getState()
         return "true";
     else
         return "false";
-
-
 }
 
 QSize TaskItemWidget::sizeHint() const
@@ -60,7 +55,8 @@ QSize TaskItemWidget::sizeHint() const
 
         return QSize(s.width(), s.height() + 15);
     }
-    return QSize(400, 100);}
+    return QSize(400, 100);
+}
 
 
 

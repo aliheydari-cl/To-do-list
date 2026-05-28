@@ -25,6 +25,11 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QLabel" name="subject">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Subject</string>
        </property>
@@ -35,6 +40,11 @@
      </item>
      <item>
       <widget class="QCheckBox" name="checkBox">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
        <property name="text">
         <string>Done</string>
        </property>

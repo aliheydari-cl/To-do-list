@@ -13,7 +13,7 @@ class AddDialog : public QDialog
 
 public:
     explicit AddDialog(QWidget *parent = nullptr);
-    ~AddDialog();\
+    ~AddDialog();
 
 signals:
     void newTextRecived(QString, QString, QString = "false");
